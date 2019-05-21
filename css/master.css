@@ -1,0 +1,97 @@
+body
+{
+ background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/new-dark-teal-with-dark-teal-canvas-fabric-texture-free-high-resolution-photo.jpg");
+}
+.footer
+{
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+}
+td
+{
+	border: 8px solid white;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+  color: white;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 70px;
+	cursor: pointer;;
+}
+
+table
+{
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+
+
+	margin-left: -155px;
+	top: 50px;
+
+}
+
+table tr:first-child td
+{
+	border-top: 0px;
+}
+
+table tr:last-child td
+{
+	border-bottom: 0px;
+}
+
+table tr td:first-child
+{
+	border-left: 0px;
+}
+
+table tr td:last-child
+{
+	border-right: 0px;
+}
+button
+{
+  color: black;
+  font-family: 'Skranji', cursive;
+}
+
+.text
+{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.endgame
+{
+  transition: 1s;
+	display: none;
+	width: 200px;
+	top: 120px;
+	background-color: rgba(205,133,63,0.8);
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 2em;
+
+
+}
+
+.heading{
+font-family: 'Fira Sans', sans-serif;
+}
+
+h4
+{
+  font-family: 'Indie Flower', cursive;
+}
